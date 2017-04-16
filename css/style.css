@@ -54,8 +54,8 @@ to{opacity:1;-webkit-transform:none;transform:none;}
 .github{font-family:Arial;color:#000000;font-size:16px;background:#d4ca13;padding:5px 10px 5px 10px;text-decoration:none;margin:5px;outline:none;}
 .github:hover{background:#effc3c;text-decoration:none;}
 #section5{padding-top:50px;height:400px;width:100%;color:#fff;text-align:center;background-color:#303030;}
-#section5 .container{font-size:0.8rem;position:relative;top:15vh;}
-#section5 i{margin-bottom:50px;}
+#section5 .container{font-size:0.8rem;position:relative;}
+#section5 i{margin:30px auto;}
 .scrollup{width:51px;height:51px;opacity:0.3;position:fixed;bottom:50px;right:0;display:none;text-indent:-9999px;background:url('../img/arrow.png') no-repeat;}
 footer{background-color:#222;color:#fff;height:70px;text-align:center;}
 footer p{position:relative;top:30%;}
@@ -68,6 +68,7 @@ footer p{position:relative;top:30%;}
 #section1 p{font-size:75%;}
 }
 @media (max-width:470px){#section5 i{font-size:2rem;}
+#section2 p{font-size:1rem;}
 }
 @media (max-width:400px){.ih-item.square{width:70%;height:70%;}
 .ih-item.square.effect6 .info h3{font-size:0.8rem;margin:0;}
