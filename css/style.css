@@ -400,7 +400,8 @@ footer p{
 	}
 }
 
-@media (max-width: 767px){	
+@media (max-width: 767px){
+	#angle{display:none;}
 	#section5 i{
 		font-size: 3rem;
 	}
