@@ -401,6 +401,9 @@ footer p{
 }
 
 @media (max-width: 767px){
+	.section1{
+		height:auto;	
+	}
 	.angle{display:none;}
 	.section5 span{
 		font-size: 3rem;
