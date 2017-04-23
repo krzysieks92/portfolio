@@ -1,6 +1,6 @@
 /*pojawianie sie i znikanie elementow strony*/
 window.sr = ScrollReveal();
-		sr.reveal('i', {
+		sr.reveal('span', {
 			reset: true,
 			delay: 300,
 			distance: 0
@@ -12,13 +12,13 @@ window.sr = ScrollReveal();
 	
 
 	$('.fa-angle-down').click(function() {
-		$.scrollTo($('#section2'), 500);
+		$.scrollTo($('.section2'), 500);
 	});	
 	
 /*płynne przewijanie strony*/
 $(document).ready(function() { 
  
-	$('a[href^="#"]').on('click', function(event) {
+	$('a[href^="."]').on('click', function(event) {
 	
 		var target = $( $(this).attr('href') );
 	
