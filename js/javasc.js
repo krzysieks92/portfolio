@@ -1,6 +1,6 @@
 /*pojawianie sie i znikanie elementow strony*/
 window.sr = ScrollReveal();
-		sr.reveal('span', {
+		sr.reveal('.icon', {
 			reset: true,
 			delay: 300,
 			distance: 0
