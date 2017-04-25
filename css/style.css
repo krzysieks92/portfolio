@@ -394,12 +394,6 @@ footer p{
 }
 
 /*media queries*/
-/*@media (max-width: 991px){
-	.section4{
-		height: auto;
-	}
-}*/
-
 @media (max-width: 767px){
 	.section1{
 		height:auto;	
