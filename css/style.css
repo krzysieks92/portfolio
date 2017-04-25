@@ -178,7 +178,6 @@ a:hover{
 	color: black;
 	text-align: center;
 	height: 100vh;
-	margin-bottom: 50px;
 	background-image: url('../img/code.png');
 	background-size: cover;
 	background-position: center;
@@ -402,6 +401,9 @@ footer p{
 }
 
 @media (max-width: 767px){
+	.section1{
+		height:auto;	
+	}
 	.angle{display:none;}
 	.section5 span{
 		font-size: 3rem;
@@ -452,6 +454,3 @@ footer p{
 		font-size: 1.8rem;
 	}
 }
-
-
-
