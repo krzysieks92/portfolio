@@ -177,7 +177,7 @@ a:hover{
 	width:100%;
 	color: black;
 	text-align: center;
-	height: 100vh;
+	height: auto;
 	background-image: url('../img/code.png');
 	background-size: cover;
 	background-position: center;
@@ -394,12 +394,6 @@ footer p{
 }
 
 /*media queries*/
-@media (max-width: 991px){
-	.section4{
-		height: auto;
-	}
-}
-
 @media (max-width: 767px){
 	.section1{
 		height:auto;	
